@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/restaurant_navigation"
+    app:startDestination="@id/menu_home">
+
+            <fragment
+                android:id="@+id/menu_home"
+                android:name="com.example.restaurantsapp.View.RestuarantFragment"
+                android:label="Restuarant List"
+                tools:layout="@layout/fragment_main_item"
+                >
+
+                <action
+                    android:id="@+id/action_menu_home_to_menu_detail"
+                    app:destination="@id/menu_detail" />
+            </fragment>
+
+
+            <fragment
+                android:id="@+id/menu_detail"
+                android:name="com.example.restaurantsapp.View.DetailsFragment"
+                android:label="Detail List"
+                tools:layout="@layout/fragment_detail_item"
+                >
+
+            </fragment>
+
+
+
+
+
+</navigation>

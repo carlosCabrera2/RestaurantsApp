@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RestaurantsApp</string>
+    <string name="user_picture">User Picture</string>
+    <string name="restaurant_picture">Restaurant Picture</string>
+    <string name="favorite_restaurants">favorite_restaurants</string>
+    <string name="restaurant_list">restaurant_list</string>
+    <string name="item_name">item name</string>
+    <string name="favorite_button">favorite button</string>
+    <string name="papadeuxe">Papadeuxe</string>
+</resources>
